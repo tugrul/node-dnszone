@@ -1,6 +1,10 @@
 # node-dnszone
 Parse big dns zone data stream
 
+```
+npm install dnszone
+```
+
 ```javascript
 var fs = require('fs');
 var zlib = require('zlib');
