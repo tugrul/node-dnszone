@@ -1,0 +1,26 @@
+{
+  "name": "dnszone",
+  "version": "0.0.1",
+  "description": "Parse big dns zone data stream",
+  "main": "lib/dns-zone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugrul/node-dnszone.git"
+  },
+  "keywords": [
+    "dns",
+    "zone",
+    "file"
+  ],
+  "author": "Tuğrul Topuz <tugrultopuz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tugrul/node-dnszone/issues"
+  },
+  "homepage": "https://github.com/tugrul/node-dnszone#readme",
+  "dependencies": {
+  }
+}
