@@ -7,7 +7,7 @@
         "src/node_binding.cc"
       ],
       "include_dirs": [
-        "<!@(node -p \"require('./node_modules/node-addon-api').include\")"
+        "<!@(node -p \"require('node-addon-api').include\")"
       ],
       "defines": [
         "NAPI_DISABLE_CPP_EXCEPTIONS"
