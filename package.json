@@ -9,8 +9,8 @@
     "./web":  { "require": "./web.js",   "types": "./types.d.ts" }
   },
   "scripts": {
-    "build":   "node-gyp configure build --nodedir=/usr",
-    "rebuild": "node-gyp rebuild --nodedir=/usr",
+    "build":   "node-gyp configure build",
+    "rebuild": "node-gyp rebuild",
     "test":    "jest"
   },
   "repository": {

@@ -237,9 +237,9 @@ All field values are strings (numbers remain as strings to preserve precision fo
 Pass `{ convertIDN: true }` to automatically decode internationalized domain name labels in ACE form (`xn--…`) back to their Unicode representation.
 
 ```js
-// Zone file contains:  xn--nxasmq6b.com.  (Greek "παράδειγμα.com")
+// Zone file contains:  xn--o9je3hr65l74c16c.com.  (Japan "例となる名前.com")
 const records = parseSync(zone, { convertIDN: true });
-console.log(records[0].name);  // → "παράδειγμα.com."
+console.log(records[0].name);  // → "例となる名前.com."
 ```
 
 With `convertIDN: false` (default), names are returned exactly as they appear in the zone file.

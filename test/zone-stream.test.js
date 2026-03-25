@@ -73,12 +73,12 @@ sub.deep    IN  A     10.0.0.2
 `;
 
 const IDN_ZONE = `
-$ORIGIN xn--nxasmq6b.com.
+$ORIGIN xn--o9je3hr65l74c16c.com.
 $TTL 300
-@   IN  SOA  xn--nxasmq6b.com. hostmaster.xn--nxasmq6b.com. 1 3600 900 604800 300
-@   IN  NS   xn--nxasmq6b.com.
+@   IN  SOA  xn--o9je3hr65l74c16c.com. hostmaster.xn--o9je3hr65l74c16c.com. 1 3600 900 604800 300
+@   IN  NS   xn--o9je3hr65l74c16c.com.
 @   IN  A    1.2.3.4
-www IN  CNAME xn--nxasmq6b.com.
+www IN  CNAME xn--o9je3hr65l74c16c.com.
 `;
 
 // ──────────────────────────── helpers ────────────────────────────────────────
